@@ -1,0 +1,52 @@
+/* Base styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Ensure proper touch target sizes */
+button, a {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+/* Smooth transitions */
+a, button {
+  transition: all 0.2s ease;
+}
+
+/* Mobile menu animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.absolute.top-16 {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Project navigation buttons */
+.projects-nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Skills grid responsiveness */
+@media (max-width: 640px) {
+  .grid-cols-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
