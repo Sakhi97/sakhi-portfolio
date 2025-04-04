@@ -28,10 +28,10 @@ function MainSection() {
         <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6 mt-4">
           {/* Social Media Icons */}
           <div className="flex space-x-6">
-            <a href="#" className="text-[#0077B5] hover:text-blue-600 transition-colors" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/sakhi-hashmat/" className="text-[#0077B5] hover:text-blue-600 transition-colors" aria-label="LinkedIn">
               <FaLinkedin size={24} className="md:w-7 md:h-7" />
             </a>
-            <a href="#" className="text-black hover:text-blue-600 transition-colors" aria-label="GitHub">
+            <a href="https://github.com/Sakhi97" className="text-black hover:text-blue-600 transition-colors" aria-label="GitHub">
               <FaGithub size={24} className="md:w-7 md:h-7" />
             </a>
             <a href="mailto:sakhi.hashmat7@gmail.com" className="text-red-600 hover:text-red-700 transition-colors" aria-label="Email">
